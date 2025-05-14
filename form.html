@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form Validator</title>
+  <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" alt="Logo" class="logo" />
+      <h1>Form Validator</h1>
+    </header>
+
+    <!-- Registration Form -->
+<form id="registrationForm">
+  <h2>Register</h2>
+
+  <label for="username">Username</label>
+  <input type="text" id="username" placeholder="Enter username" />
+  <small></small>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="Enter email" />
+  <small></small>
+
+  <label for="password">Password</label>
+  <input type="password" id="password" placeholder="Enter password" />
+  <small></small>
+
+  <label for="confirmPassword">Confirm Password</label>
+  <input type="password" id="confirmPassword" placeholder="Confirm password" />
+  <small></small>
+
+  <!-- REGISTER BUTTON ONLY -->
+  <button type="submit" id="registerBtn">Register</button>
+</form>
+
+
+    <p class="hint">*Click to validate, double-click to reset the form.</p>
+  </div>
+
+  <script src="form.js"></script>
+</body>
+</html>
